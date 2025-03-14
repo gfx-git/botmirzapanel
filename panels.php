@@ -98,8 +98,8 @@ class ManagePanel{
             }else{
                 $Output['status'] = 'successful';
                 $Output['username'] = $usernameC;
-                $Output['subscription_url'] = $Get_Data_Panel['linksubx']."/$usernameC";
-                $Output['configs'] = [outputlunk($Get_Data_Panel['linksubx']."/$usernameC")];
+                $Output['subscription_url'] = $Get_Data_Panel['linksubx'].;
+                $Output['configs'] = [outputlunk($Get_Data_Panel['linksubx'].)];
             }
 
         }
@@ -483,8 +483,8 @@ class ManagePanel{
             }else{
                 $Output = array(
                     'status' => 'successful',
-                    'configs' => [outputlunk($Get_Data_Panel['linksubx']."/{$usernameac}")],
-                    'subscription_url' => $Get_Data_Panel['linksubx']."/{$usernameac}",
+                    'configs' => [outputlunk($Get_Data_Panel['linksubx'])],
+                    'subscription_url' => $Get_Data_Panel['linksubx'],
                 );
             }
         }
